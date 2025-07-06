@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kos Bapak Ari</title>
+  <link rel="stylesheet" href="style/main.css" />
+  <script defer src="script/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Header/Navbar -->
+<header class="navbar">
+  <div class="navbar-flex">
+    <div class="logo">
+      <img src="assets/images/logo kos.png" alt="Logo Kos Bapak Ari" />
+      Kos Bapak Ari
+    </div>
+    <nav id="navMenu" class="hidden">
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#fasilitas">Fasilitas</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#lokasi">Lokasi</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><button id="dark-toggle">🌙</button></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle" class="hamburger">☰</button>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Kos Nyaman, Strategis & Aman</h1>
+      <h3 class="hero-title">Tinggal dekat kampus & fasilitas kota? Kos Bapak Ari solusinya!</h3>
+      <a href="#booking" class="cta">Booking Sekarang</a>
+    </div>
+    <div class="hero-img">
+      <img src="assets/images/desain kos kosan minimalis.jpg" alt="Tampilan Kos" />
+    </div>
+  </section>
+
+<!-- Section tambahan -->
+<!-- Section: Fasilitas -->
+<section class="fasilitas" id="fasilitas">
+  <h2>Fasilitas Kos</h2>
+  <div class="slider-container">
+    <div class="slider" id="fasilitasSlider">
+      <div class="slide">🛏️ Kamar tidur 4x3</div>
+      <div class="slide">🚿 Kamar mandi luar</div>
+      <div class="slide">🍳 Dapur bersama</div>
+      <div class="slide">🎥 CCTV 24 jam</div>
+      <div class="slide">🌐 Internet cepat</div>
+      <div class="slide">🅿️ Halaman parkir</div>
+      <div class="slide">⚡ Include Listrik & air</div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Keunggulan Kos -->
+<section class="keunggulan" id="keunggulan">
+  <h2>Keunggulan Kos</h2>
+  <ul>
+    <li>🚗 Akses ke jalan raya mudah</li>
+    <li>⏱️ 5 menit ke Universitas Islam Sultan Agung Semarang, RSI Sultan Agung Semarang, dan terminal bus</li>
+    <li>🏙️ Dekat dengan kota atau Simpang 5</li>
+  </ul>
+</section>
+
+<!-- Section: Galeri Kos -->
+<section class="galeri" id="galeri">
+  <h2>Galeri Kos</h2>
+  <p>Lihat suasana dan fasilitas kos kami melalui galeri berikut:</p>
+  <div class="galeri-grid">
+    <img src="assets/images/gambar1.jpg" alt="Galeri Kos 1" />
+    <img src="assets/images/kamar2.jpg" alt="Galeri Kos 2" />
+    <img src="assets/images/halamankos3.jpg" alt="Galeri Kos 3" />
+    <img src="assets/images/kamar4.jpg" alt="Galeri Kos 4" />
+    <img src="assets/images/Screenshot 2025-07-06 161934.png" alt="Galeri Kos 5" />
+    <img src="assets/images/kamar2.jpg" alt="Galeri Kos 6" />
+    <img src="assets/images/kamar2.jpg" alt="Galeri Kos 7" />
+  </div>
+</section>
+
+<!-- Section: Testimoni -->
+<section class="testimoni" id="testimoni">
+  <h2>Testimoni Penghuni</h2>
+  <div class="testimoni-container" id="testimoniContainer">
+    <!-- Konten akan di-generate dengan JS -->
+  </div>
+</section>
+
+<!-- Section: Booking -->
+<section class="booking" id="booking">
+  <h2>Form Booking Kos</h2>
+  <form id="bookingForm">
+    <div class="form-group">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" required>
+    </div>
+    <div class="form-group">
+      <label for="nohp">Nomor WhatsApp</label>
+      <input type="tel" id="nohp" name="nohp" required>
+    </div>
+    <div class="form-group">
+      <label for="tanggal">Tanggal Booking</label>
+      <input type="date" id="tanggal" name="tanggal" required>
+    </div>
+    <button type="submit" class="cta">Kirim Booking</button>
+    <p id="successMsg" class="success-msg"></p>
+  </form>
+</section>
+
+<!-- Section: Lokasi -->
+<section class="lokasi" id="lokasi">
+  <h2>Lokasi Kos</h2>
+  <p>Kos Bapak Ari terletak di:</p>
+  <p><strong>Jl. Gebang Anom Gg. III No.13, Genuk, Kota Semarang</strong></p>
+  <a href="https://maps.app.goo.gl/5dxcSRF2NaoiMFWr5" target="_blank" class="cta">
+    📍 Lihat & Arahkan via Google Maps
+  </a>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1834.5514945414725!2d110.46979341371735!3d-6.9593419117706175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f326eb665111%3A0x6d26f7fb8f4cf113!2sJl.%20Gebang%20Anom%20Gg.%20III%20Jl.%20Gebang%20Anom%20Raya%20No.13%2C%20Gebangsari%2C%20Kec.%20Genuk%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050117!5e0!3m2!1sen!2sid!4v1751802971366!5m2!1sen!2sid" 
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<!-- Section: Kontak -->
+<section class="kontak" id="kontak">
+  <h2>Hubungi Kami</h2>
+  <p>Untuk info lebih lanjut atau reservasi cepat, hubungi kami melalui WhatsApp:</p>
+  <a href="https://wa.me/6281325684505" class="cta" target="_blank">💬 Chat via WhatsApp</a>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kos Bapak Ari. All rights reserved.</p>
+    <p>Designed with ❤️ by Aditya Sendy Ardiansyah</p>
+  </footer>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const darkToggle = document.getElementById('dark-toggle');
+    darkToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      darkToggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- Testimoni Script -->
+  <script src="script/testimoni.js"></script>
+
+</body>
+</html>
