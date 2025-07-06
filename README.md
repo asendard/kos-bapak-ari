@@ -49,6 +49,6 @@ AI **tidak digunakan dalam produk akhir**, hanya untuk percepatan development.
 ## 🗂️ Setup & Jalankan Secara Lokal
 
 ```bash
-git clone https://github.com/username/kos-bapak-ari.git
+git clone https://github.com/asendard/kos-bapak-ari.git
 cd kos-bapak-ari
 buka index.html via Live Server atau browser
